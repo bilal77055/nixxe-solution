@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.header{
+  height: 10vh;
+  border: 1px solid #000;
+}
+form{
+  width: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+button{
+  width: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.last-card{
+  width: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.error11{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(31, 28, 28, 0.769);
+  border: 1px solid #000;
+  color: white;
+  z-index: 10;
+}
+.errornew{
+  display: none !important;
+}
